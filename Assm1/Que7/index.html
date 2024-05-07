@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Q6</title>
+</head>
+
+<body>
+    <style>
+        th {
+            text-align: left;
+        }
+    </style>
+    <div class="container">
+        <h1 style="color: red;">Employee Registration Form</h1>
+        <table>
+            <th></th>
+            <th>
+                <input type="radio" name="design" id="Mr." /><span>Mr.</span>
+                <input type="radio" name="design" id="Mrs." /><span>Mrs.</span>
+                <input type="radio" name="design" id="Ms." /><span>Ms.</span>
+            </th>
+            <tr>
+                <td>First Name</td>
+                <td><input type="text" name="first" placeholder="First Name" /></td>
+            </tr>
+
+            <tr>
+                <td>Last Name</td>
+                <td><input type="text" name="last" placeholder="Last Name" /></td>
+            </tr>
+            <tr>
+                <td>Mail Address1</td>
+                <td><input type="text" name="mad1" /></td>
+            </tr>
+            <tr>
+                <td>Mail Address2</td>
+                <td><input type="text" name="mad2" /></td>
+            </tr>
+            <tr>
+                <td>City</td>
+                <td><input type="text" name="city" /></td>
+            </tr>
+            <tr>
+                <td>State</td>
+                <td>
+                    <select id="cars">
+                        <option value="Gujrat">Gujrat</option>
+                        <option value="Madhya-Pradesh" selected>Madhya-Pradesh</option>
+                        <option value="Rajasthan">Rajasthan</option>
+                        <option value="Maharastra">Maharastra</option>
+                    </select>
+                </td>
+            </tr>
+            <tr>
+                <td>Zip</td>
+                <td><input type="number" name="zip-code" min="400000 max=" 50000" /></td>
+            </tr>
+            <tr>
+                <td>Upload Photo</td>
+                <td><input type="file" /></td>
+            </tr>
+            <tr>
+                <td>E-Mail</td>
+                <td><input type="email" name="" id="email" /></td>
+            </tr>
+            <tr>
+                <td>Mobile</td>
+                <td><input type="number" name="Mobile-No" placeholder="+91" /></td>
+            </tr>
+            <tr>
+                <td>Language Known</td>
+                <td>
+                    <input type="checkbox" id="Gujrati" name="gujju" value="Gujrati" />
+                    <label for="Gujrati">Gujrati</label><br />
+                    <input type="checkbox" id="Hindi" name="hindi" value="Hindi" />
+                    <label for="Hindi">Hindi</label><br />
+                    <input type="checkbox" id="English" name="english" value="English" />
+                    <label for="English">English</label><br />
+                    <input type="checkbox" id="Marathi" name="marathi" value="Marathi" />
+                    <label for="Marathi">Marathi</label>
+                </td>
+            </tr>
+            <tr>
+                <td>Additional Information</td>
+                <td>
+                    <textarea name="text" cols="30" rows="5" placeholder="Optional"></textarea>
+                </td>
+            </tr>
+            <tr>
+                <td></td>
+                <td>
+                    <button type="submit">Submit</button>
+                    <button type="reset">Reset</button>
+                </td>
+            </tr>
+        </table>
+    </div>
+</body>
+
+</html>
