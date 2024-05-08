@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Hotel Booking - City Tourism Sites</title>
+	<link rel="stylesheet" href="style.css">
+</head>
+<body>
+	<header>
+		<h1>Hotel Booking - Ghumo Rajasthan</h1>
+		<img src="logo.jpeg" alt="City Logo">
+		<nav>
+			<ul>
+				<li><a href="index.html">Home</a></li>
+				<li><a href="heritage.html">Heritage</a></li>
+				<li><a href="hotel-booking.html">Hotel Booking</a></li>
+				<li><a href="gallery.html">Gallery</a></li>
+			</ul>
+		</nav>
+	</header>
+	<main>
+		<h2>Hotel Booking</h2>
+		<form action="form-handler.php" method="post" style="display: flex; flex-direction: column; gap: 8px;">
+			<label for="name">Name:</label>
+			<input type="text" id="name" name="name">
+
+			<label for="email">Email:</label>
+			<input type="email" id="email" name="email">
+
+            <label for="phone">Phone:</label>
+			<input type="tel" id="phone" name="phone">
+
+			<label for="check-in">Check-in Date:</label>
+			<input type="date" id="check-in" name="check-in">
+
+			<label for="check-out">Check-out Date:</label>
+			<input type="date" id="check-out" name="check-out">
+
+			<label for="rooms">Number of Rooms:</label>
+			<select id="rooms" name="rooms">
+				<option value="1">1</option>
+				<option value="2">2</option>
+				<option value="3">3</option>
+				<option value="4">4</option>
+				<option value="5">5</option>
+			</select>
+
+			<label for="preferences">Preference:</label>
+			<select id="preferences" name="preferences">
+				<option value="non-smoking">Non-smoking</option>
+				<option value="smoking">Smoking</option>
+				<option value="pet-friendly">Pet-friendly</option>
+			</select>
+
+			<input type="submit" value="Book Now">
+		</form>
+	</main>
+</body>
+</html>
