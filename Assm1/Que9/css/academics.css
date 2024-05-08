@@ -1,0 +1,94 @@
+/* Reset some default browser styles */
+body, h1, h2, h3, p, ul, li {
+    margin: 0;
+    padding: 0;
+}
+
+/* Apply some basic styles to the body */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f2f2f2;
+}
+
+/* Style header */
+header {
+    background-color: #333;
+    color: #fff;
+    padding: 20px;
+    text-align: center;
+}
+
+header h1 {
+    margin-bottom: 10px;
+}
+
+header img {
+    width: 100px;
+    height: 100px;
+    margin-bottom: 10px;
+}
+
+/* Style navigation */
+nav ul {
+    list-style-type: none;
+}
+
+nav ul li {
+    display: inline;
+    margin-right: 10px;
+}
+
+nav ul li a {
+    color: #fff;
+    text-decoration: none;
+}
+
+nav ul li a:hover {
+    text-decoration: underline;
+}
+
+/* Style main content */
+main {
+    padding: 20px;
+}
+
+main h2 {
+    margin-bottom: 20px;
+}
+
+.departments {
+    display: flex;
+    justify-content: space-around;
+}
+
+.department {
+    text-align: center;
+}
+
+.department h3 {
+    margin-top: 10px;
+    margin-bottom: 5px;
+}
+
+.department img {
+    width: 200px;
+    height: 150px;
+    margin-bottom: 10px;
+}
+
+.department ul {
+    list-style-type: none;
+}
+
+.department ul li {
+    margin-bottom: 5px;
+}
+
+.department ul li a {
+    color: #333;
+    text-decoration: none;
+}
+
+.department ul li a:hover {
+    text-decoration: underline;
+}

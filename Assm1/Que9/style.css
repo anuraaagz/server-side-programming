@@ -1,0 +1,91 @@
+body {
+	background-image: url('background.jpg');
+	background-size: cover;
+	background-position: center;
+	font-family: Arial, sans-serif;
+}
+
+header {
+	background-color: #841515;
+	color: #fff;
+	padding: 20px;
+	text-align: center;
+}
+
+header h1 {
+	margin: 0;
+}
+
+header img {
+	width: 50px;
+	height: 50px;
+	margin: 10px;
+}
+
+nav {
+	background-color: #fff;
+	color: #841515;
+	padding: 10px;
+	text-align: center;
+}
+
+nav ul {
+	list-style: none;
+	margin: 0;
+	padding: 0;
+}
+
+nav li {
+	display: inline-block;
+	margin: 10px;
+}
+
+nav a {
+	color: #841515;
+	text-decoration: none;
+}
+
+nav a:hover {
+	color: #ccc;
+}
+
+main {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	padding: 20px;
+}
+
+h2 {
+	margin-top: 0;
+}
+
+p {
+	margin-bottom: 20px;
+}
+
+/* Common styles for all pages */
+.department {
+	border: 1px solid #ccc;
+	padding: 10px;
+	margin: 10px;
+	box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+}
+
+.department img {
+	width: 100%;
+	height: 150px;
+	object-fit: cover;
+}
+
+.department:hover {
+	border-color: #aaa;
+}
+.logo{
+	width: 100px;
+	height: 100px;
+}
+.description{
+	text-align: center;
+	font-style: italic;
+}
